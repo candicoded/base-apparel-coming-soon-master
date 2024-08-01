@@ -1,0 +1,73 @@
+:root {
+  --DesaturatedRed: hsl(0, 36%, 70%);
+  --SoftRed: hsl(0, 93%, 68%);
+  
+  --DarkGrayishRed: hsl(0, 6%, 24%);
+  
+  --Gradient1: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+  --Gradient2: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.logo {
+  width: 25%;
+  margin-left: 2em;
+  padding: 1em 0;
+}
+
+main {
+  text-align: center;
+  padding: 2em;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  letter-spacing: 10px;
+}
+
+.h1-were {
+  color: var(--DesaturatedRed);
+  font-weight: 300;
+}
+
+.h1-coming {
+  color: var(--DarkGrayishRed);
+  font-weight: 600;
+}
+
+p {
+  color: var(--DesaturatedRed);
+  font-weight: 400;
+  margin: 2em 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+input {
+  border: 1px solid var(--DesaturatedRed);
+  border-radius: 30px;
+  padding: 1em;
+  color: var(--DesaturatedRed);
+  width: 90%;
+}
+
+button {
+  border: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--DarkGrayishRed);
+}
