@@ -54,7 +54,7 @@ input {
   border: 1px solid var(--DesaturatedRed);
   border-radius: 30px;
   padding: 1em;
-  color: var(--DesaturatedRed);
+  color: var(--DarkGrayishRed);
   width: 100%;
   position: relative;
 }
@@ -75,16 +75,62 @@ button img {
   margin: 0 auto;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 0.7rem;
-  color: var(--DarkGrayishRed);
+.desktop-hero-img {
+  display: none;
 }
 
 @media screen and (min-width: 48em) {
   
+  body {
+    background: url(./images/bg-pattern-desktop.svg) no-repeat;
+    display: grid;
+    grid-template-columns: 55% 45%;
+  }
+
+  header, main {
+    margin: 2em 6em;
+  }
+
+  .logo {
+    width: 28%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  h1, p {
+    text-align: left;
+    width: 92%;
+  }
+
+  input {
+    width: 92%;
+    margin-left: -3em;
+    font-size: 1rem;
+  }
+
+  button {
+    left: 36em;
+    bottom: -4em;
+    width: 6%;
+    padding: 1.3em 3.5em;
+    border-radius: 30px;
+  }
+
+  button:hover {
+    opacity: 0.7;
+  }
+
+  .mobile-hero-img {
+    display: none;
+  }
+
+  .desktop-hero-img {
+    display: block;
+  }
 }
