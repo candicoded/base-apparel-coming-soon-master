@@ -134,3 +134,24 @@ button img {
     display: block;
   }
 }
+
+  .error-border {
+    border-color: var(--SoftRed);
+    border-width: 2px;
+    position: relative;
+  }
+
+  .error-icon {
+    position: absolute;
+    left: 27.5em;
+    bottom: -2.7em;
+    display: none;
+  }
+
+  #error-container {
+    color: var(--SoftRed);
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-size: 0.8rem;
+    display: none;
+  }
